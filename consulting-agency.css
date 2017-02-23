@@ -1,0 +1,27 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+main>header,main>footer, main section {
+    border: 1px solid green;
+    margin: 10px;
+}
+.industries article{
+    width: 300px;
+    margin: 10px;
+    border: 1px solid red;
+    display: inline-block;
+}
+.benefits article{
+     width: 300px;
+     margin: 10px;
+     border: 1px solid blue;
+     display: inline-block;
+ }
+.site-footer section{
+    width: 300px;
+    margin: 10px;
+    border: 1px solid blue;
+    display: inline-block;
+}
+.instagram-widget li{
+
+}
