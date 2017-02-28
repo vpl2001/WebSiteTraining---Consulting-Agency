@@ -1,27 +1,168 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-main>header,main>footer, main section {
-    border: 1px solid green;
-    margin: 10px;
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+.site-header{
+    background: url("images/Layer-759_02.jpg");
+    min-height: 400px;
+}
+nav.top-navigation{
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+}
+nav.top-navigation ul li{
+    display: inline-block;
+    padding: 15px;
+}
+nav.top-navigation ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav.top-navigation ul li a:hover{
+    color: wheat;
+}
+nav.top-navigation ul{
+    background: rgba(255, 127, 80, 0.91);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+section.slider{
+    text-align: center;
+}
+section.slider h1{
+    margin-top: 70px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 10px black;
+    font-size: 3em;
+}
+section.slider p{
+    color: white;
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    text-shadow: 0px 0px 10px black;
+}
+section.slider .slider-button{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #10103d;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+section.slider .slider-button:hover{
+    background-color: #ff7f50;
+    color: black;
+}
+section.industries{
+    text-align: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.industries .icon{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    background: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 2em;
+    float: left;
+}
+.industries article h2,
+.industries article p{
+    margin-left: 65px;
+    text-align: left;
+}
+.industries article h2{
+    font-size: 1.2em;
 }
 .industries article{
-    width: 300px;
+    width: 350px;
     margin: 10px;
-    border: 1px solid red;
     display: inline-block;
+    vertical-align: top;
+}
+
+.mission{
+    background: url("images/steel-bg.jpg");
+    background-size: cover;
+    text-align: center;
+}
+.mission h1{
+    padding-top: 10px;
+    color: #ff7f50;
+}
+.mission h2{
+    padding-bottom: 10px;
+}
+.benefits{
+    background-image: url("images/background-choose-us.jpg");
+    background-size: cover;
+    text-align: center;
+    color: white;
 }
 .benefits article{
-     width: 300px;
-     margin: 10px;
-     border: 1px solid blue;
-     display: inline-block;
- }
+    width: 300px;
+    margin: 10px;
+    border: 2px solid #ff7f50;
+    display: inline-block;
+
+}
+.benefits article a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.benefits article a:hover{
+    background: rgba(255, 255, 255, 0.4);
+    color: black;
+}
+
+.testimonials {
+    background-image: url("images/consulting-woman.jpg");
+    text-align: right;
+}
+
+article.testimonial{
+    background: rgba(255, 255, 255, 0.4);
+    display: inline-block;
+    width: 400px;
+    padding: 10px;
+    margin: 30px;
+}
+article.testimonial div.author{
+    background: black;
+    color: white;
+    min-height: 200px;
+    margin: 10px;
+}
+.partners {
+    text-align: center;
+}
+.partners ul li{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
 .site-footer section{
     width: 300px;
     margin: 10px;
     border: 1px solid blue;
     display: inline-block;
+    vertical-align: top;
 }
-.instagram-widget li{
-
+.instagram-widget ul li{
+    display: inline-block;
 }
